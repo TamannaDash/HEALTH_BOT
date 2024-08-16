@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#317EFB"/>
+    <title>About Us - HealthHarmony</title>
+    <link rel="stylesheet" href="../CSS/styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .about-header {
+            background: url'diet.jpeg' no-repeat center center;
+            background-size: cover;
+            color: #000000;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+        }
+        .about-header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .about-header p {
+            font-size: 1.5em;
+        }
+        .about-header .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: #fcfcfc;
+            background-color: #5f1733;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .about-header .btn:hover {
+            background-color: #2557a7;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .team-member, .contact-info {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .team-member img, .contact-info img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .team-member div, .contact-info div {
+            max-width: 600px;
+        }
+        .team-member h3, .contact-info h3 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .team-member p, .contact-info p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #317EFB;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #2557a7;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .footer p {
+            margin: 10px 0;
+        }
+        .footer a {
+            color: #317EFB;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="about-header">
+        <h1>About HealthHarmony</h1>
+        <p>Empowering Your Journey to Better Health and Fitness</p>
+        <a href="index.html" class="btn">Back to Home</a>
+    </section>
+
+    <section class="section">
+        <h2>Our Mission</h2>
+        <p>At HealthHarmony, our mission is to provide comprehensive solutions for your health and fitness needs. We aim to support individuals of all ages in achieving their wellness goals through personalized exercise plans, diet recommendations, and expert guidance. Our platform is designed to be your go-to resource for maintaining a balanced and healthy lifestyle.</p>
+        <img src="logo.png" alt="Our Mission">
+    </section>
+
+    <section class="section">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+            <img src="../Images/team1.jpg" alt="Team Member 1">
+            <div>
+                <h3>John Doe</h3>
+                <p>John is a certified fitness trainer with over 10 years of experience in helping people achieve their health goals. His expertise lies in creating effective workout routines tailored to individual needs.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="../Images/team2.jpg" alt="Team Member 2">
+            <div>
+                <h3>Jane Smith</h3>
+                <p>Jane is a nutritionist who specializes in creating balanced meal plans that cater to various dietary needs. Her goal is to help users make informed choices about their nutrition.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="img.webp" alt="Team Member 3">
+            <div>
+                <h3>Emily Johnson</h3>
+                <p>Emily is a wellness coach dedicated to providing motivation and support to individuals on their fitness journey. Her approach combines physical training with mental wellness strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Our Features</h2>
+        <div class="row">
+            <div class="events-col">
+                <img src="../Images/exercise.jpg" alt="Exercises">
+                <a href="#"><div class="layer">
+                    <h3>Exercises</h3>
+                </div></a>
+            </div>
+            <div class="events-col">
+                <img src="../Images/diet.jpeg" alt="Diet Meals">
+                <a href="#"><div class="layer">
+                    <h3>Diet Meals</h3>
+                </div></a>
+            </div>
+            <div class="events-col">
+                <img src="../Images/doctor.jpg" alt="Diagnosis">
+                <a href="#"><div class="layer">
+                    <h3>Diagnosis</h3>
+                </div></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <img src="img.webp" alt="Contact Us">
+        </div>
+            <div>
+                <h3>Our Office</h3>
+                <p>SRM University, Chennai, Tamil Nadu, India</p>
+                <h3>Phone</h3>
+                <p>+91 9569974368 (Monday to Friday)</p>
+                <h3>Email</h3>
+                <p>vg8100@srmist.edu.in</p>
+            </div>
+        
+        <form class="contact-form" action="#">
+            <h2>Send Us a Message</h2>
+            <input type="text" id="fullName" placeholder="Enter your name" required>
+            <input type="email" id="email_id" placeholder="Enter your Email-id" required>
+            <input type="text" id="username" placeholder="Enter your username" required>
+            <textarea rows="7" id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a dedicated team of fitness enthusiasts who created HealthHarmony to promote wellness and health across India. Our website is built with passion and expertise in HTML, CSS, and JavaScript, aiming to offer a valuable resource for anyone looking to improve their health.</p>
+        <div class="icons">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Team HealthHarmony</p>
+    </section>
+
+</body>
+</html>
