@@ -1,8 +1,8 @@
-Health Harmony
+# Health Harmony
 
 Health Harmony is a web-based application designed to help users track and manage their health and wellness. It provides features such as health metrics tracking, reminders for medication, and personalized wellness tips.
 
-Table of Contents
+# Table of Contents
 Project Overview
 Features
 Installation
